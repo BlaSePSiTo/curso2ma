@@ -27,4 +27,11 @@ header {
     text-shadow: 4px 2px #ccc;
     font-style: italic;
     flex: 12;
+    color: #000;
+  }
+
+  header ul a {
+    text-decoration: none;
+    display: flex;
+    flex: 12;
   }

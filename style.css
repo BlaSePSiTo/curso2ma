@@ -7,7 +7,11 @@
 body {
   font-family: Arial, sans-serif;
   font-size: 16px;
+  background: url(img/bg.jpg);
+  backdrop-filter: blur(5px);
+  background-size: 170px;
 }
+
 
 #galeria {
   width: 100%;
@@ -22,7 +26,9 @@ body {
   margin-bottom: 20px;
 }
 
-.foto-container, .foto-container1, .foto-container2 {
+.foto-container,
+.foto-container1,
+.foto-container2 {
   display: flex;
   align-items: center;
   margin-right: 20px;
@@ -33,7 +39,9 @@ body {
   width: 100%;
 }
 
-.foto-container p, .foto-container1 p, .foto-container2 p {
+.foto-container p,
+.foto-container1 p,
+.foto-container2 p {
   background-color: #F9E5D8;
   border: 3px solid #D1A078;
   padding: 10px;
@@ -47,7 +55,8 @@ body {
 
 .foto img {
   width: 100%;
-  max-width: 100%; /* Cambiado para asegurar que las imÃ¡genes no se desborden */
+  max-width: 100%;
+  /* Cambiado para asegurar que las imÃ¡genes no se desborden */
   object-fit: cover;
   height: auto;
   max-height: 400px;
@@ -68,7 +77,10 @@ body {
 }
 
 @media (max-width: 768px) {
-  .foto-container, .foto-container1, .foto-container2 {
+
+  .foto-container,
+  .foto-container1,
+  .foto-container2 {
     margin-right: 0;
     flex-direction: row;
     align-items: flex-start;
